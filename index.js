@@ -3,7 +3,7 @@ addEventListener("fetch", event => {
 })
 
 async function handleRequest(request) {
-  return new Response("Hello worker!", {
+  return new Response("Hello cloud flare worker!", {
     headers: { "content-type": "text/plain" }
   })
 }
