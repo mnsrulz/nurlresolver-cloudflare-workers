@@ -6,13 +6,22 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "format": "prettier --write '**/*.{js,css,json,md}'"
+    "format": "prettier --write '**/*.{js,css,json,md}'",
+    "webpack": "webpack",
+    "build": "webpack --config webpack.config.js"
   },
   "author": "{{ authors }}",
   "license": "MIT",
   "devDependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "emitter": "0.0.5",
+    "got": "^11.6.2",
+    "http2": "^3.3.7",
+    "nurlresolver": "^1.9.1",
     "prettier": "^1.18.2",
+    "query-string": "^6.13.1",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
-  }
+  },
+  "dependencies": {}
 }
