@@ -1,8 +1,8 @@
 {
   "private": true,
-  "name": "{{ project-name }}",
+  "name": "nurlresolver-cloudflare-worker",
   "version": "1.0.0",
-  "description": "A template for kick starting a Cloudflare Workers project",
+  "description": "Sample project for nurlresolver demonstrating hosting on cloudflare workers",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
